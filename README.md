@@ -1,3 +1,5 @@
-# Billinge history website
+# Billinge history society website
 
-https://fmalina.github.io/billinge-history/
+Renewed content.
+
+https://billinge-history.github.io
