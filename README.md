@@ -1,5 +1,5 @@
 # Billinge history society website
 
-Renewed content.
+Renewed and historical content.
 
 https://billinge-history.github.io
