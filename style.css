@@ -1,7 +1,6 @@
 body{font-family: Garamond, serif;color:#333;margin:1.5em}
 h1{font-weight:normal;color:#111}
-a{color:SaddleBrown}
-a:visited{color:purple}
+
 
 .menu b a{display:inline-block;padding:.4em .8em;font-weight:bold;text-transform:uppercase;
     color:white;border-radius:4px;text-decoration:none;text-shadow:1px 1px #000;margin:0 .4em}
@@ -11,10 +10,11 @@ a:visited{color:purple}
 .menu b a,.header b{box-shadow:2px 2px 4px #000;background:SaddleBrown}
 
 .header{text-shadow:2px 2px #ddd;display:block;text-align:center;text-decoration:none;font-size:1.2em;
-    letter-spacing:.2em;padding-bottom:1em}
+    letter-spacing:.2em;padding-bottom:1em;color:SaddleBrown}
 .header b{text-shadow:2px 2px #333;padding:1.4em .3em .5em .3em;margin:0 .3em;
     border-radius:0 0 .5em .5em;color:white;font-weight:normal}
 .header:hover{text-decoration:underline}
+.header:visited{color:SaddleBrown}
 
 .menu{list-style-type:none;margin:0;padding:1em 0}
 .menu b a{display:block;width:6.5em;float:left;margin:1em 1em 1em 0;text-align:center;position:relative;top:.5em}
@@ -22,9 +22,13 @@ a:visited{color:purple}
 .menu li{width:50%;float:left}
 .menu p{padding-right:1em;padding-top:.5em}
 
+.btn{text-transfrom:uppercase}
+
 .nav{list-style:none;margin:1em 0 0 0;padding:0;clear:both}
 .nav li{padding:0 1em .5em 0;display:inline-block}
 
+a:link{color:SaddleBrown}
+a:visited{color:purple}
 hr{clear:both}
 img{margin-bottom:4px}
 
