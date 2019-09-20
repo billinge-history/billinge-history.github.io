@@ -35,14 +35,23 @@ img{padding:2px;margin-bottom:4px;border:1px solid #ddd}
 }
 
 @media only screen and (min-width: 600px) {
-    .gallery { /* Masonry container */
+    .gallery {
+        transition: all .5s ease-in-out;
+        column-gap: 30px;
+        column-fill: initial;
         column-count: 3;
         column-gap: 1em;
     }
-    .gallery li { /* Masonry bricks or child elements */
-        background-color: #eee;
+    .gallery li {
         display: inline-block;
         margin: 0 0 1em;
         width: 100%;
+    }
+    .gallery li img {
+      transition: all .5s ease-in-out;
+      backface-visibility: hidden;
+    }
+    .gallery li:hover img {
+      opacity: .75;
     }
 }
