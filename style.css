@@ -1,3 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-body{font-family: 'Playfair Display', serif;}
-h1{font-weight:normal}
+body{font-family: Garamond, serif;color:#333;margin:1.5em}
+h1{font-weight:normal;color:#111}
+.btn{display:inline-block;padding:.4em .8em;font-weight:bold;text-transform:uppercase;
+    color:white;border-radius:4px;text-decoration:none;text-shadow:1px 1px #000}
+
+.btn:hover,
+.header:hover b{background:orange}
+.header:hover b{text-shadow:1px 1px #333}
+.btn,.header b{box-shadow:2px 2px 4px #000;background:SaddleBrown}
+.header{text-shadow:2px 2px #ddd;display:block;text-align:center;text-decoration:none;font-size:1.5em;
+    letter-spacing:.2em;padding-bottom:1em}
+.header b{text-shadow:2px 2px #333;padding:1.2em .3em .5em .3em;margin:0 .3em;
+    border-radius:0 0 .5em .5em;color:white;font-weight:normal}
+
+a{color:SaddleBrown}
