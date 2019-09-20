@@ -1,6 +1,5 @@
 body{font-family: Garamond, serif;color:#333;margin:1.5em}
-h1{font-weight:normal;color:#111}
-
+h1{font-weight:normal;color:#111;text-align:center}
 
 .menu b a{display:inline-block;padding:.4em .8em;font-weight:bold;text-transform:uppercase;
     color:white;border-radius:4px;text-decoration:none;text-shadow:1px 1px #000;margin:0 .4em}
@@ -22,9 +21,9 @@ h1{font-weight:normal;color:#111}
 .menu li{width:50%;float:left}
 .menu p{padding-right:1em;padding-top:.5em}
 
-.next{text-transform:uppercase;font-size:1.2em}
+.next{text-transform:uppercase;font-size:1.2em;display:block;text-align:center}
 
-.nav{list-style:none;margin:1em 0 0 0;padding:0;clear:both}
+.nav{list-style:none;margin:1em 0 0 0;padding:0;clear:both;text-align:center}
 .nav li{padding:0 1em .5em 0;display:inline-block}
 
 a:link{color:SaddleBrown}
