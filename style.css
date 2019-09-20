@@ -26,7 +26,10 @@ a{color:SaddleBrown}
 hr{clear:both}
 img{padding:2px;margin-bottom:4px;border:1px solid #ddd}
 
+.gallery{list-style-type:none;margin:0;padding:0}
+.gallery li{margin:0;padding:0 0 1em 0}
 
 @media only screen and (max-width: 600px) {
   .responsive{width:100%;height:auto}
+  .gallery img{width:100%;height:auto}
 }
