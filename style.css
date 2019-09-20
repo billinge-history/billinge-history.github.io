@@ -33,3 +33,16 @@ img{padding:2px;margin-bottom:4px;border:1px solid #ddd}
   .responsive{width:100%;height:auto}
   .gallery img{width:100%;height:auto}
 }
+
+@media only screen and (min-width: 600px) {
+    .gallery { /* Masonry container */
+        column-count: 3;
+        column-gap: 1em;
+    }
+    .gallery li { /* Masonry bricks or child elements */
+        background-color: #eee;
+        display: inline-block;
+        margin: 0 0 1em;
+        width: 100%;
+    }
+}
