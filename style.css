@@ -15,6 +15,7 @@ h1{font-weight:normal;color:#111}
     border-radius:0 0 .5em .5em;color:white;font-weight:normal}
 
 a{color:SaddleBrown}
+a:visited{color:purple}
 .menu{list-style-type:none;margin:0;padding:1em 0}
 .menu b .btn{display:block;width:6.5em;float:left;margin:1em 1em 1em 0;text-align:center;position:relative;top:.5em}
 .menu li{width:50%;float:left}
