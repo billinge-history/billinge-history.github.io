@@ -39,7 +39,7 @@ img{margin-bottom:4px}
         transition: all .5s ease-in-out;
         column-gap: 30px;
         column-fill: initial;
-        column-count: 3;
+        column-count: 2;
         column-gap: 1em;
     }
     .gallery li {
@@ -57,5 +57,11 @@ img{margin-bottom:4px}
     }
     .gallery li:hover img {
       opacity: .75;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .gallery {
+        column-count: 3;
     }
 }
