@@ -4,7 +4,9 @@ h1{font-weight:normal;color:#111}
     color:white;border-radius:4px;text-decoration:none;text-shadow:1px 1px #000;margin:0 .4em}
 
 .btn:hover,
+.btn.active,
 .header:hover b{background:orange}
+.btn.external{background:orange}
 .header:hover b{text-shadow:1px 1px #333}
 .btn,.header b{box-shadow:2px 2px 4px #000;background:SaddleBrown}
 .header{text-shadow:2px 2px #ddd;display:block;text-align:center;text-decoration:none;font-size:1.2em;
