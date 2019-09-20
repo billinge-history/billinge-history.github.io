@@ -24,10 +24,10 @@ a{color:SaddleBrown}
 .nav li{padding:0 1em .5em 0;display:inline-block}
 
 hr{clear:both}
-img{padding:2px;margin-bottom:4px;border:1px solid #ddd}
+img{margin-bottom:4px}
 
 .gallery{list-style-type:none;margin:0;padding:0}
-.gallery li{margin:0;padding:0 0 1em 0}
+.gallery li{margin:0;padding:0}
 
 @media only screen and (max-width: 600px) {
   .responsive{width:100%;height:auto}
@@ -45,6 +45,10 @@ img{padding:2px;margin-bottom:4px;border:1px solid #ddd}
     .gallery li {
         display: inline-block;
         margin: 0 0 1em;
+        width: 100%;
+    }
+    .gallery li img {
+        display: inline-block;
         width: 100%;
     }
     .gallery li img {
