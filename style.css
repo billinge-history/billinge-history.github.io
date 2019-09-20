@@ -60,7 +60,7 @@ img{margin-bottom:4px}
       transition: all .5s ease-in-out;
       backface-visibility: hidden;
     }
-    .gallery li:hover img {
+    .gallery li a:hover img {
       opacity: .75;
     }
 }
