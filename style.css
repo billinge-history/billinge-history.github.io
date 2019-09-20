@@ -19,7 +19,7 @@ a{color:SaddleBrown}
 .menu p{padding-right:1em;padding-top:.5em}
 
 .nav{list-style:none;margin:1em 0 0 0;padding:0;clear:both}
-.nav li{padding:.5em;display:inline-block}
+.nav li{padding:0 1em .5em 0;display:inline-block}
 
 hr{clear:both}
 img{padding:2px;margin-bottom:4px;border:1px solid #ddd}
