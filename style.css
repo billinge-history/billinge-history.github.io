@@ -22,7 +22,7 @@ h1{font-weight:normal;color:#111}
 .menu li{width:50%;float:left}
 .menu p{padding-right:1em;padding-top:.5em}
 
-.btn{text-transfrom:uppercase}
+.next{text-transform:uppercase;font-size:1.2em}
 
 .nav{list-style:none;margin:1em 0 0 0;padding:0;clear:both}
 .nav li{padding:0 1em .5em 0;display:inline-block}
@@ -43,7 +43,6 @@ img{margin-bottom:4px}
 @media only screen and (min-width: 600px) {
     .gallery {
         transition: all .5s ease-in-out;
-        column-gap: 30px;
         column-fill: initial;
         column-count: 2;
         column-gap: 1em;
