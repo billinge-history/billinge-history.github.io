@@ -29,10 +29,9 @@ h1{font-weight:normal;color:#111;text-align:center}
 a:link{color:SaddleBrown}
 a:visited{color:purple}
 hr{clear:both}
-img{margin-bottom:4px}
 
 .gallery{list-style-type:none;margin:0;padding:0}
-.gallery li{margin:0;padding:0}
+.gallery li{margin:0;padding:0;padding-bottom:.5em}
 
 @media only screen and (max-width: 640px) {
   .responsive{width:100%;height:auto}
