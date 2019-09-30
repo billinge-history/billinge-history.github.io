@@ -1,4 +1,4 @@
-body{font-family: Garamond, serif;color:#333;margin:1.5em}
+body{font-family: Garamond, serif;color:#333;margin:1.5em auto 0 auto;max-width:890px}
 h1{font-weight:normal;color:#111;text-align:center}
 
 .menu b a{display:inline-block;padding:.4em .8em;font-weight:bold;text-transform:uppercase;
@@ -14,7 +14,6 @@ h1{font-weight:normal;color:#111;text-align:center}
     border-radius:0 0 .5em .5em;color:white;font-weight:normal}
 .header:hover{text-decoration:underline}
 .header:visited{color:SaddleBrown}
-.container{max-width:890px;margin:0 auto}
 
 .menu{list-style-type:none;margin:0;padding:1em 0}
 .menu b a{display:block;width:6.5em;float:left;margin:1em 1em 1em 0;text-align:center;position:relative;top:.5em}
@@ -33,7 +32,8 @@ hr{clear:both;margin:2em 0;height:0;background:none;border:0;border-top:1px soli
 
 .gallery{list-style-type:none;margin:0;padding:0}
 .gallery li{padding:0;margin:0 0 1em}
-.video-container {
+
+.video {
     position: relative;
     padding-bottom: 56.25%;
     text-align: center;
@@ -41,9 +41,9 @@ hr{clear:both;margin:2em 0;height:0;background:none;border:0;border-top:1px soli
     height: 0;
     overflow: hidden;
 }
-.video-container iframe,
-.video-container object,
-.video-container embed {
+.video iframe,
+.video object,
+.video embed {
     position: absolute;
     top: 0;
     left: 0;
