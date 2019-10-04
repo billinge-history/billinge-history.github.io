@@ -22,6 +22,7 @@ h1{font-weight:normal;color:#111;text-align:center}
 .menu li{width:50%;float:left}
 .menu p{padding-right:1em;padding-top:.5em}
 
+/* next gallery links */
 .next{text-transform:uppercase;font-size:1.2em;display:block;text-align:center}
 
 .nav{list-style:none;margin:1em 0 0 0;padding:0;clear:both;text-align:center}
@@ -31,6 +32,7 @@ a:link{color:SaddleBrown}
 a:visited{color:purple}
 hr{clear:both;margin:2em 0;height:0;background:none;border:0;border-top:1px solid #ddd}
 
+/* photo galleries */
 .gallery{list-style-type:none;margin:0;padding:0}
 .gallery li{padding:0;margin:0 0 1em}
 
