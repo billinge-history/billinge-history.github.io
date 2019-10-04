@@ -55,6 +55,10 @@ hr{clear:both;margin:2em 0;height:0;background:none;border:0;border-top:1px soli
     height: 100%;
 }
 
+.songlist{list-style-type:none;padding:0}
+.songlist audio{height:1em}
+.songlist li{padding-bottom:1em}
+
 @media only screen and (max-width: 640px) {
   .responsive{width:100%;height:auto}
   .gallery img{width:100%;height:auto}
