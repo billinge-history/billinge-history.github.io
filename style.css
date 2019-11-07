@@ -14,7 +14,7 @@ header a:visited{color:SaddleBrown}
 header a,.lead .nav a{text-shadow:1px 1px rgba(255,255,255,.5)}
 
 .lead{background-image:url('photos/billinge-hill.jpg');background-size:cover;
-    background-position:50% 0;min-height:800px;
+    background-position:50% 0;background-color:goldenrod;min-height:800px;
     margin-bottom:2em;padding-bottom:1em}
 .lead .nav{padding:4rem;max-width:20rem;text-transform:uppercase}
 .lead .nav a{text-decoration:none;color:black;font-size:larger}
