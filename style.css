@@ -32,6 +32,7 @@ header a,.lead .nav a{text-shadow:1px 1px rgba(255,255,255,.5)}
 .next a{display:inline-block;padding:.4em 1.2em;
     border:1px solid lightgray;color:slategray;border-radius:.5em}
 .next a:hover{color:white;background:slategray;border-color:slategray}
+.next a:visited{color:black}
 
 .nav{list-style:none;margin-top:1em;padding:0;clear:both;text-align:center}
 .nav li{padding:0 1em .5em 0;display:inline-block}
