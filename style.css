@@ -28,7 +28,7 @@ header a,.lead .nav a{text-shadow:1px 1px rgba(255,255,255,.5)}
 .menu a:visited{color:lightgray}
 
 /* next gallery links */
-.next{padding:0 1em 1em 1em;text-align:center}
+.next{padding:.3em 1em 1em 1em;text-align:center}
 .next a{display:inline-block;padding:.4em 1.2em;
     border:1px solid lightgray;color:slategray;border-radius:.5em}
 .next a:hover{color:white;background:slategray;border-color:slategray}
