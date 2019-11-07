@@ -28,9 +28,8 @@ header a,.lead .nav a{text-shadow:1px 1px rgba(255,255,255,.5)}
 /* next gallery links */
 .next{padding:0 1em 1em 1em;text-align:center;text-transform: uppercase}
 .next a{letter-spacing:.2em;word-spacing:.3em;display:inline-block;padding:.4em 1.2em;
-    border:1px solid lightgray;color:gray;border-radius:.5em;text-decoration:none}
-.next a:hover{text-decoration:underline}
-.next a:visited{color:black}
+    border:1px solid slategray;color:slategray;border-radius:.5em;text-decoration:none}
+.next a:hover{color:white;background:slategray}
 
 .nav{list-style:none;margin-top:1em;padding:0;clear:both;text-align:center}
 .nav li{padding:0 1em .5em 0;display:inline-block}
