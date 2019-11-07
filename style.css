@@ -21,9 +21,9 @@ header a,.lead .nav a{text-shadow:1px 1px rgba(255,255,255,.5)}
 .lead .nav a,.next a{text-decoration:none;letter-spacing:.2em;word-spacing:.3em;
     text-transform:uppercase}
 
-.menu{padding:1em;background:rgba(0,0,0,.7);border-radius:.5em;color:white}
-.menu p{width:50%;box-sizing:border-box;float:left;padding:.5em;margin-top:0}
-.menu .clear{clear:both}
+.menu{padding:1.5em;background:rgba(0,0,0,.7);column-count:2;
+        column-gap:1.5em;border-radius:.5em;color:white}
+.menu p{margin-top:0;margin-bottom:1.5em}
 .menu a:link{color:white}
 .menu a:visited{color:lightgray}
 
