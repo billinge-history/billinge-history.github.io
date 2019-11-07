@@ -16,9 +16,10 @@ header a,.lead .nav a{text-shadow:1px 1px rgba(255,255,255,.5)}
 .lead{background-image:url('photos/billinge-hill.jpg');background-size:cover;
     background-position:50% 0;background-color:goldenrod;min-height:800px;
     margin-bottom:2em;padding-bottom:1em}
-.lead .nav{padding:4rem;max-width:25rem;text-transform:uppercase}
+.lead .nav{padding:4rem;max-width:25rem}
 .lead .nav a{color:black;font-size:larger}
-.lead .nav a,.next a{text-decoration:none;letter-spacing:.2em;word-spacing:.3em}
+.lead .nav a,.next a{text-decoration:none;letter-spacing:.2em;word-spacing:.3em;
+    text-transform:uppercase}
 
 .menu{padding:1em;background:rgba(0,0,0,.7);border-radius:.5em;color:white}
 .menu p{width:50%;box-sizing:border-box;float:left;padding:.5em;margin-top:0}
